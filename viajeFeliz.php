@@ -1,11 +1,11 @@
 <?php
-class viajeFeliz{
+class ViajeFeliz{
 private $codigo ;
 private $destino;
 private $cantMaxPasajeros;
-private $Pasajeros;
+private $pasajeros=[];
 
-public function __construct($codigo,$destino,$cantMaxPasajeros,$Pasajeros){
+public function __construct($codigo,$destino,$cantMaxPasajeros,$pasajeros){
 $this->codigo=$codigo;
 $this->destino=$destino;
 $this->cantMaxPasajeros=$cantMaxPasajeros;
